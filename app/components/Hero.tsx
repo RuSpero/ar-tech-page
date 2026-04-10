@@ -9,12 +9,12 @@ export default function Hero() {
         </p>
 
         <h1 className="mb-6 text-5xl font-bold leading-tight md:text-7xl">
-          Hacemos que tu marca se vea profesional y genere clientes
+           Conseguí más clientes con una presencia digital profesional
         </h1>
 
         <p className="mx-auto mb-10 max-w-2xl text-lg leading-8 text-gray-300 md:text-xl">
-          En AR-Tech ayudamos a negocios y emprendedores a destacar en redes
-          sociales con estrategia, diseño y contenido pensado para crecer.
+          En AR-Tech ayudamos a negocios a destacarse en redes sociales con estrategia,
+            diseño y contenido que genera consultas reales.
         </p>
 
         <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -24,7 +24,7 @@ export default function Hero() {
             rel="noreferrer"
             className="rounded-lg bg-green-500 px-8 py-4 font-semibold text-black transition hover:scale-105"
             >
-            Quiero mi landing
+            Quiero más clientes
         </a>
 
           <a
