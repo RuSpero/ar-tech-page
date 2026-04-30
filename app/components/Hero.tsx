@@ -4,7 +4,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(34,197,94,0.16),transparent_30%)]" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,rgba(59,130,246,0.12),transparent_25%)]" />
 
-      <div className="relative mx-auto grid max-w-7xl items-center gap-16 md:grid-cols-2">
+      <div className="relative mx-auto grid max-w-7xl items-center gap-16 md:grid-cols-2 py-10">
         <div>
           <p className="mb-5 text-sm font-semibold uppercase tracking-[0.35em] text-green-400">
             Agencia digital
