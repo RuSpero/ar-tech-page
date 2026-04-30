@@ -113,7 +113,7 @@ export default function Contacto() {
 
           <button
             type="submit"
-            className="w-full rounded-full bg-primary px-6 py-4 font-semibold text-black transition hover:scale-[1.01]"
+            className="w-full rounded-full bg-[#0f766e] px-6 py-4 font-semibold text-black transition hover:scale-[1.01]"
           >
             Enviar por WhatsApp
           </button>
