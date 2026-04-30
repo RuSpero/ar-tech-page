@@ -1,38 +1,54 @@
 export default function Nosotros() {
   return (
-    <section id="nosotros" className="bg-gray-100 px-6 py-24 text-black">
-      <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-2 md:items-center">
+    <section id="nosotros" className="bg-gray-100 px-6 py-28 text-black md:px-10">
+      <div className="mx-auto grid max-w-7xl gap-14 md:grid-cols-2 md:items-center">
         <div>
-          <p className="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-green-600">
+          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-green-600">
             Nosotros
           </p>
+
           <h2 className="mb-6 text-4xl font-bold md:text-5xl">
-            Más que publicaciones: construimos presencia digital
+            Convertimos ideas en presencia digital profesional
           </h2>
-          <p className="mb-4 text-lg leading-8 text-gray-700">
-            En AR-Tech trabajamos con negocios, marcas y emprendedores que
-            necesitan verse mejor, comunicar con claridad y generar más
-            oportunidades desde internet.
+
+          <p className="mb-5 text-lg leading-8 text-gray-700">
+            En AR-Tech ayudamos a negocios, emprendedores y marcas a comunicar
+            mejor, verse más profesionales y generar más oportunidades desde internet.
           </p>
+
           <p className="text-lg leading-8 text-gray-700">
-            Nuestro enfoque combina estrategia, diseño y orden. No buscamos solo
-            que tu perfil se vea lindo, sino que transmita confianza, autoridad
-            y resultados.
+            Combinamos estrategia, diseño y tecnología para crear soluciones
+            digitales simples, modernas y enfocadas en resultados reales.
           </p>
         </div>
 
-        <div className="rounded-3xl bg-black p-8 text-white shadow-xl">
-          <h3 className="mb-6 text-2xl font-semibold">
-            Lo que buscamos para tu marca
+        <div className="rounded-[2rem] bg-black p-8 text-white shadow-2xl">
+          <h3 className="mb-8 text-2xl font-semibold">
+            Nuestra forma de trabajar
           </h3>
 
-          <ul className="space-y-4 text-gray-300">
-            <li>• Imagen profesional y coherente</li>
-            <li>• Contenido con intención y estrategia</li>
-            <li>• Más confianza frente a potenciales clientes</li>
-            <li>• Mayor claridad en tu propuesta de valor</li>
-            <li>• Una presencia digital lista para crecer</li>
-          </ul>
+          <div className="space-y-5">
+            <div className="rounded-2xl bg-white/5 p-5">
+              <p className="mb-1 font-semibold text-green-400">01. Estrategia</p>
+              <p className="text-gray-300">
+                Primero entendemos tu negocio, tu cliente ideal y tus objetivos.
+              </p>
+            </div>
+
+            <div className="rounded-2xl bg-white/5 p-5">
+              <p className="mb-1 font-semibold text-green-400">02. Diseño</p>
+              <p className="text-gray-300">
+                Creamos una imagen clara, moderna y coherente con tu marca.
+              </p>
+            </div>
+
+            <div className="rounded-2xl bg-white/5 p-5">
+              <p className="mb-1 font-semibold text-green-400">03. Acción</p>
+              <p className="text-gray-300">
+                Implementamos piezas, contenidos y herramientas listas para captar clientes.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
