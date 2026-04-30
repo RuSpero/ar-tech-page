@@ -6,8 +6,6 @@ const config: Config = {
     extend: {
       colors: {
         primary: "#0f766e",
-        secondary: "#0f172a", // negro azulado
-        accent: "#38bdf8", // azul suave
       },
     },
   },
