@@ -20,7 +20,7 @@ export default function RootLayout({
           href="https://wa.me/5493424297529"
           target="_blank"
           rel="noreferrer"
-          className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-green-500 text-2xl text-black shadow-lg transition hover:scale-110"
+          className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-primary text-2xl text-black shadow-lg transition hover:scale-110"
         >
           💬
         </a>
