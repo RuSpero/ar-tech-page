@@ -1,15 +1,16 @@
 export default function Footer() {
   return (
-    <footer className="border-t border-white/10 bg-black px-6 py-8 text-white">
-      <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 md:flex-row">
+    <footer className="border-t border-white/10 bg-black px-6 py-10 text-white md:px-10">
+      <div className="mx-auto flex max-w-7xl flex-col gap-8 md:flex-row md:items-center md:justify-between">
         <div>
-          <p className="text-lg font-semibold">AR-Tech</p>
-          <p className="text-sm text-gray-400">
-            Presencia digital, estrategia y diseño para negocios.
+          <p className="mb-2 text-xl font-semibold">AR-Tech</p>
+          <p className="max-w-md text-sm leading-6 text-gray-400">
+            Soluciones digitales para marcas, negocios y emprendedores que
+            quieren crecer con una presencia profesional.
           </p>
         </div>
 
-        <div className="flex gap-6 text-sm text-gray-400">
+        <nav className="flex flex-wrap gap-6 text-sm text-gray-400">
           <a href="#servicios" className="transition hover:text-white">
             Servicios
           </a>
@@ -19,7 +20,11 @@ export default function Footer() {
           <a href="#contacto" className="transition hover:text-white">
             Contacto
           </a>
-        </div>
+        </nav>
+      </div>
+
+      <div className="mx-auto mt-8 max-w-7xl border-t border-white/10 pt-6 text-sm text-gray-500">
+        © {new Date().getFullYear()} AR-Tech. Todos los derechos reservados.
       </div>
     </footer>
   );
