@@ -22,7 +22,7 @@ export default function Hero() {
 
           <div className="flex flex-col gap-4 sm:flex-row">
             <a
-              href="https://wa.me/5493426271923?text=Hola%20AR-Tech,%20quiero%20m%C3%A1s%20informaci%C3%B3n"
+              href="https://wa.me/5493424297529?text=Hola%20AR-Tech,%20quiero%20m%C3%A1s%20informaci%C3%B3n"
               target="_blank"
               rel="noreferrer"
               className="rounded-full bg-green-500 px-8 py-4 text-center font-semibold text-black transition hover:scale-105"
